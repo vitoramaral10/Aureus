@@ -30,23 +30,23 @@ O sistema segue os princípios de microserviços e arquitetura hexagonal, garant
 
 ## Microserviços Principais
 
-- **Transaction Processor:** Responsável por validar e processar transações financeiras.
-- **Account Manager:** Gerencia contas de usuários e seus saldos.
-- **Audit Logger:** Mantém um log imutável de todas as transações para auditoria.
-- **Notification Service:** Envia notificações sobre transações e alertas de saldo.
-- **API Gateway:** Ponto de entrada unificado para todas as requisições externas.
-- **Database Service:** Interface com o banco de dados PostgreSQL, garantindo operações ACID.
-- **Load Balancer:** Distribui a carga de requisições entre múltiplas instâncias dos serviços.
-- **Cache Layer:** Utiliza Redis para acelerar consultas frequentes e reduzir a latência.
-- **Monitoring Service:** Coleta métricas e logs para monitoramento em tempo real.
-- **Authentication Service:** Gerencia autenticação e autorização de usuários.
-- **Backup Service:** Realiza backups periódicos do banco de dados para garantir a recuperação de dados.
-- **Configuration Service:** Centraliza a gestão de configurações dos microserviços.
-- **Rate Limiter:** Controla o fluxo de requisições para evitar sobrecarga do sistema.
-- **Scheduler Service:** Gerencia tarefas agendadas, como liquidações periódicas.
-- **Reporting Service:** Gera relatórios financeiros e estatísticas de uso.
-- **Fraud Detection Service:** Monitora transações suspeitas e previne fraudes.
-- **Settlement Service:** Gerencia o processo de liquidação entre diferentes instituições financeiras.
+- **Transaction Processor:** Responsável por validar e processar transações financeiras. ⏳
+- **Account Manager:** Gerencia contas de usuários e seus saldos. ⏳
+- **Audit Logger:** Mantém um log imutável de todas as transações para auditoria.⏳
+- **Notification Service:** Envia notificações sobre transações e alertas de saldo.⏳
+- **API Gateway:** Ponto de entrada unificado para todas as requisições externas.⏳
+- **Database Service:** Interface com o banco de dados PostgreSQL, garantindo operações ACID.⏳
+- **Load Balancer:** Distribui a carga de requisições entre múltiplas instâncias dos serviços.⏳
+- **Cache Layer:** Utiliza Redis para acelerar consultas frequentes e reduzir a latência.⏳
+- **Monitoring Service:** Coleta métricas e logs para monitoramento em tempo real.⏳
+- **Authentication Service:** Gerencia autenticação e autorização de usuários.⏳
+- **Backup Service:** Realiza backups periódicos do banco de dados para garantir a recuperação de dados.⏳
+- **Configuration Service:** Centraliza a gestão de configurações dos microserviços.⏳
+- **Rate Limiter:** Controla o fluxo de requisições para evitar sobrecarga do sistema.⏳
+- **Scheduler Service:** Gerencia tarefas agendadas, como liquidações periódicas.⏳
+- **Reporting Service:** Gera relatórios financeiros e estatísticas de uso.⏳
+- **Fraud Detection Service:** Monitora transações suspeitas e previne fraudes.⏳
+- **Settlement Service:** Gerencia o processo de liquidação entre diferentes instituições financeiras.⏳
 
 ## Tecnologias Utilizadas
 
